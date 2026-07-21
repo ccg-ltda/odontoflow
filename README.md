@@ -21,10 +21,12 @@ Versión organizada de la aplicación original que venía contenida en un solo a
 Se puede abrir `index.html` directamente en el navegador. Para desarrollo, es preferible levantar el servidor local incluido:
 
 ```powershell
-node server.js
+node dev-server.cjs
 ```
 
 Después, abrir `http://localhost:8000`.
+
+En producción, Vercel sirve directamente `index.html` y la carpeta `assets`.
 
 ## Dependencias externas
 

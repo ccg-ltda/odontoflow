@@ -1,3 +1,5 @@
+// Servidor exclusivo para desarrollo local. El nombre evita que Vercel lo
+// interprete como el punto de entrada de producción.
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
